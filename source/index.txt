@@ -12,8 +12,11 @@
    :maxdepth: 2
    :glob:
    
-   preface
-   chapters/*
+   preface
+七年级上
+   chapters/1-4
+七年级下
+   chapters/5-10
    aboutme
    roadmap
    
