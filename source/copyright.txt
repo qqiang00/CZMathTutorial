@@ -3,8 +3,8 @@
 ===============================
 
 | 书名：       《初中数学编程实验-Python》
-| 作者：       叶强
-| 版本：       第1版
+| 作者：       叶强(qqiangye@gmail.com)
+| 版本：       第1版
 | 公开日期：   2017年2月14日
 | Copyright © 2017 Qiang Ye. All rights reserved.
 
