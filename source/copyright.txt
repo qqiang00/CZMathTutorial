@@ -3,10 +3,16 @@
 ===============================
 
 书名：《初中数学编程实验-Python》
+
 作者：叶强
+
 版本：第1版
+
 公开日期：2017年2月14日
 
+
 Copyright © 2017 Qiang Ye. All rights reserved.
+
 转载请说明出处：http://czmathtutorial.readthedocs.io
+
 不得用于任何商业用途。
