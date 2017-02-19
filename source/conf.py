@@ -46,7 +46,7 @@ source_suffix = '.txt'
 master_doc = 'index'
 
 # General information about the project.
-project = 'CZMathTutorial'
+project = '初中数学编程实验'
 copyright = '2017, YQ'
 author = 'YQ'
 
