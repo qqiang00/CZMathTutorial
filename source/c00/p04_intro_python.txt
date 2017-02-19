@@ -36,7 +36,7 @@ Python语言诞生于上世纪90年代初，经过了20多年的发展演变，�
     Type "help", "copyright", "credits" or "license" for more information.
     >>>_
 
-此时，我们看到了 ``>>>`` 提示符，表明我们已经可以进行Python的编程了。如果计算机没有安装Python编译器，则会输出类似下面的信息::
+此时，我们看到了 ``>>>`` 提示符，表明我们已经进入了Python交互编程环境，可以进行Python的编程了。如果计算机没有安装Python编译器，则会输出类似下面的信息::
     
     C:\Users\User.ComputerName>python
     'python' is not recognized as an internal or external command,
@@ -52,3 +52,6 @@ Python语言诞生于上世纪90年代初，经过了20多年的发展演变，�
 --------------------------------
 编写并运行第一个Python程序
 --------------------------------
+在阅读这段文字前，希望你已经Python语言编译器已经正确地安装在你的计算机上了，而且你也学会了如何操作命令提示符，输入 ``Python`` 进入Python交互编程界面。那么，下面我们就来编写并运行第一个Python程序。
+
+我们要编写的这个程序的功能很简单，就是要在屏幕上显示一行文字
