@@ -28,18 +28,21 @@ Python语言诞生于上世纪90年代初，经过了20多年的发展演变，�
     
     C:\Users\User.ComputerName>python
 
-如果计算机没有安装Python编译器，则会输出类似下面的信息::
-    
-    C:\Users\User.ComputerName>python
-    'python' is not recognized as an internal or external command,operable program or batch file.
-
 如果计算机已经安装了Python编译器，则输出类似下面的信息并进入Python编程交互式界面::
 
     C:\Users\User.ComputerName>python
     Python 3.5.2 (v3.5.2:4def2a2901a5, Jun 25 2016, 22:01:18) [MSC v.1900 32 bit (Intel)] on win32
     Type "help", "copyright", "credits" or "license" for more information.
-    >>>
+    >>>_
+
+此时，我们看到了 ``>>>`` 提示符，表明我们已经可以进行Python的编程了。如果计算机没有安装Python编译器，则会输出类似下面的信息::
     
+    C:\Users\User.ComputerName>python
+    'python' is not recognized as an internal or external command,
+    operable program or batch file.
+
+提示，命令提示符这个程序并不认识 ``python`` 命令。此时我们就需要在计算机上安装Python编译器。可以登录: `Link Python官方网站 <http://www.python.org/>` 点击首页上的 ``Downloads``菜单栏，根据提示下载安装Python编译器。
+    
 --------------------------------
 编写并运行第一个Python程序
 --------------------------------
