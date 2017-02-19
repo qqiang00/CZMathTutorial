@@ -23,9 +23,8 @@ Python语言诞生于上世纪90年代初，经过了20多年的发展演变，�
 
     Microsoft Windows [Version: 10.0.10240]
     (C) 2015 Microsoft Corporation. All rights reserved.
-
+    
     C:\Users\User.ComputerName>_
-
 
 如果你不熟悉这个窗口，最好先学习一下有关Windows操作系统下命令提示符相关的知识。在这个窗口里，我们可以输入一些常用的DOS命令，也可以启动其他程序。为了检查我们正在使用的这台计算机是否安装了Python编译器，我们可以输入如下命令：
 
