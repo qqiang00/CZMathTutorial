@@ -44,7 +44,6 @@ Python语言诞生于上世纪90年代初，经过了20多年的发展演变，�
 这句话的意思是说: ‘python’ 不是内部或外部命令，也不是可运行的程序或批处理文件。说明命令提示符这个程序并不认识 ``python`` 命令，提示Python解释器没有安装或者没有正确设置系统路径。此时我们就需要在计算机上安装Python解释器。可以登录: `Python官方网站 <http://www.python.org/>`_ 点击首页上的 ``Downloads`` 菜单栏，根据提示下载安装Python解释器，在下载的时候注意选择3.5.0以上版本。
 
 有时候要正确安装一个软件并做好配置并不是一件很轻松的事情，这里提供网络上两篇关于在Windows系统上安装Python的文章，供参考：
-
 1. `廖雪峰的官方网站-Python教程 <http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/0014316090478912dab2a3a9e8f4ed49d28854b292f85bb000>`_
 2. `Python指南-在Windows上安装Python <http://pythonguidecn.readthedocs.io/zh/latest/starting/install/win.html>`_ 
     
