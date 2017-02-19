@@ -42,7 +42,8 @@ Python语言诞生于上世纪90年代初，经过了20多年的发展演变，�
     'python' is not recognized as an internal or external command,
     operable program or batch file.
 
-提示，命令提示符这个程序并不认识 ``python`` 命令。此时我们就需要在计算机上安装Python编译器。可以登录: `Python官方网站 <http://www.python.org/>`_点击首页上的 ``Downloads`` 菜单栏，根据提示下载安装Python编译器，在下载的时候注意选择3.5以上版本。
+提示，命令提示符这个程序并不认识 ``python`` 命令。此时我们就需要在计算机上安装Python编译器。可以登录: `Python官方网站 
+<http://www.python.org/>`_ 点击首页上的 ``Downloads`` 菜单栏，根据提示下载安装Python编译器，在下载的时候注意选择3.5以上版本。
     
 --------------------------------
 编写并运行第一个Python程序
