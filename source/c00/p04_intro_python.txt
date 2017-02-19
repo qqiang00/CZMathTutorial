@@ -24,10 +24,22 @@ Python语言诞生于上世纪90年代初，经过了20多年的发展演变，�
     
     C:\Users\User.ComputerName>_
 
-如果你不熟悉这个窗口，最好先学习一下有关Windows操作系统下命令提示符相关的知识。在这个窗口里，我们可以输入一些常用的DOS命令，也可以启动其他程序。为了检查我们正在使用的这台计算机是否安装了Python编译器，我们可以输入如下命令::
+如果你不熟悉这个窗口，最好先学习一下有关Windows操作系统下命令提示符相关的知识。在这个窗口里，我们可以输入一些常用的DOS命令，也可以启动其他程序。为了检查我们正在使用的这台计算机是否安装了Python编译器，我们可以输入 ``python`` 这个词作为命令::
     
     C:\Users\User.ComputerName>python
 
+如果计算机没有安装Python编译器，则会输出类似下面的信息::
+    
+    C:\Users\User.ComputerName>python
+    'python' is not recognized as an internal or external command,operable program or batch file.
+
+如果计算机已经安装了Python编译器，则输出类似下面的信息并进入Python编程交互式界面::
+
+    C:\Users\User.ComputerName>python
+    Python 3.5.2 (v3.5.2:4def2a2901a5, Jun 25 2016, 22:01:18) [MSC v.1900 32 bit (Intel)] on win32
+    Type "help", "copyright", "credits" or "license" for more information.
+    >>>
+    
 --------------------------------
 编写并运行第一个Python程序
 --------------------------------
