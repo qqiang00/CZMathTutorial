@@ -17,17 +17,11 @@ Python语言诞生于上世纪90年代初，经过了20多年的发展演变，�
 --------------------------------
 我们将只讲解在Windows操作系统中如何安装Python编译器，如果您使用苹果公司的MacOS操作系统或者Linux操作系统，Python编译器已经安装好了，但有可能不是最新的版本。您可以参阅网上的技术文章来更新您的Python编译器支持的语言版本，或者在本书的后续一些章节，我们将讲解如何在一台计算机上安装管理不同版本的Python编译器。但在初学的时候，我们主要把精力集中在Windows操作系统上安装Python3.5的编译器。
 
-从Windows开始菜单，找到“命令行提示符”程序，运行该程序，我们将进入类似下图的窗口：
-
-.. code-block:: 
-
-    def zhengfushu(x):
-        if x > 0:
-            print("输入的数是正数")
-        elif x < 0:
-            print("输入的数是负数")
-        else:
-            print("输入的数是0")
+从Windows开始菜单，找到“命令行提示符”程序，运行该程序，我们将进入类似下图的窗口::
+    Microsoft Windows [Version: 10.0.10240]
+    (C) 2015 Microsoft Corporation. All rights reserved.
+    
+    C:\Users\User.ComputerName>_
 
 如果你不熟悉这个窗口，最好先学习一下有关Windows操作系统下命令提示符相关的知识。在这个窗口里，我们可以输入一些常用的DOS命令，也可以启动其他程序。为了检查我们正在使用的这台计算机是否安装了Python编译器，我们可以输入如下命令：
 
