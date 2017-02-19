@@ -31,7 +31,8 @@ Python语言诞生于上世纪90年代初，经过了20多年的发展演变，�
 如果计算机已经安装了Python编译器，则输出类似下面的信息并进入Python编程交互式界面::
 
     C:\Users\User.ComputerName>python
-    Python 3.5.2 (v3.5.2:4def2a2901a5, Jun 25 2016, 22:01:18) [MSC v.1900 32 bit (Intel)] on win32
+    Python 3.5.2 (v3.5.2:4def2a2901a5, Jun 25 2016, 22:01:18) [MSC v.1900 32 bit (Intel)] 
+    on win32
     Type "help", "copyright", "credits" or "license" for more information.
     >>>_
 
@@ -41,7 +42,7 @@ Python语言诞生于上世纪90年代初，经过了20多年的发展演变，�
     'python' is not recognized as an internal or external command,
     operable program or batch file.
 
-提示，命令提示符这个程序并不认识 ``python`` 命令。此时我们就需要在计算机上安装Python编译器。可以登录: `Link Python官方网站 <http://www.python.org/>` 点击首页上的 ``Downloads``菜单栏，根据提示下载安装Python编译器。
+提示，命令提示符这个程序并不认识 ``python`` 命令。此时我们就需要在计算机上安装Python编译器。可以登录: `Python官方网站 <http://www.python.org/>`_点击首页上的 ``Downloads`` 菜单栏，根据提示下载安装Python编译器，在下载的时候注意选择3.5以上版本。
     
 --------------------------------
 编写并运行第一个Python程序
