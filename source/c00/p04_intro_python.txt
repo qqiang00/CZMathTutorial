@@ -19,7 +19,7 @@ Python语言诞生于上世纪90年代初，经过了20多年的发展演变，�
 
 从Windows开始菜单，找到“命令行提示符”程序，运行该程序，我们将进入类似下图的窗口：
 
-.. code-block::
+.. code-block ::
     Microsoft Windows [Version: 10.0.10240]
     (C) 2015 Microsoft Corporation. All rights reserved.
 
