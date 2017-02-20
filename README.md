@@ -1,4 +1,5 @@
-# CZMathTutorial Using Python
+# Programming Tutorial for Secondary School Students Using Python
+
 初中数学编程实验 - Python
 初中生学编程 - Python
 
