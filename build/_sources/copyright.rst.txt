@@ -1,0 +1,12 @@
+===============================
+版权说明
+===============================
+
+| 书    名： 《初中数学编程实验-Python版》
+| 作    者： 叶强(qqiangye@gmail.com)
+| 版    本： 第1版
+| 公开日期： 2017年2月14日
+| Copyright © 2017 Qiang Ye. All rights reserved.
+
+| 转载请说明出处：http://czmathtutorial.readthedocs.io
+| 未经作者本人许可，不得用于任何商业用途。

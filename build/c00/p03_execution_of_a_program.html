@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+
+<html lang="zh_CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>0.3 计算机程序如何执行 &#8212; 初中数学编程实验 - 初中生学编程 0.1 文档</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/classic.css" />
+    
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/translations.js"></script>
+    
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
+    <link rel="copyright" title="版权所有" href="../copyright.html" />
+    <link rel="next" title="0.4 使用Python语言编程" href="p04_intro_python.html" />
+    <link rel="prev" title="0.2 计算机程序设计语言" href="p02_programming_language.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>导航</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="总目录"
+             accesskey="I">索引</a></li>
+        <li class="right" >
+          <a href="p04_intro_python.html" title="0.4 使用Python语言编程"
+             accesskey="N">下一页</a> |</li>
+        <li class="right" >
+          <a href="p02_programming_language.html" title="0.2 计算机程序设计语言"
+             accesskey="P">上一页</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">初中数学编程实验 - 初中生学编程 0.1 文档</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../chapters/p00_intro_to_programming.html" accesskey="U">第0章：计算机编程简介</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">0.3 计算机程序如何执行</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="id1">
+<h1>0.3 计算机程序如何执行<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
+<p>这一节，我们将讲解计算机程序是如何执行的。</p>
+<section id="id2">
+<h2>计算机只认识0和1<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
+<p>无论用什么语言写出来的程序，都要被翻译成一连串由0和1组成代码才能被计算机直接执行，这种由一串0和1组成的代码称之为“机器码”，又被形象地称作“机器语言”。计算机能够直接执行机器码的这一功能是计算机的设计要求和目标之一，也就是说，计算机天生具有识别和执行机器码的能力。但是由于机器码内包含0和1两个数字，很难被读懂，因此专家们就在此基础上设计了更高级的语言，同时为这种更高级语言开发了一种程序，这种程序可以把用高级语言编写出来的代码翻译成计算机可以直接识别运行的机器码。人们给这种程序起了一个专门的名字“编译器”，对于某些计算机语言来说，又称为“解释器”。现阶段，我们可以把这两个词认为意思一样，相互通用。可以说，一种高级语言就对应着一种编译器，当我们说编译器的时候，一般也会说明这是哪一种语言的编译器。</p>
+</section>
+<section id="id3">
+<h2>计算机也需要学习计算机语言<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h2>
+<p>当一台计算机上安装了针对某一种语言的编译器的时候，这台计算机就算基本具备了执行用这种高级语言编写的程序的能力了。如果一台计算机上没有某一语言的编译器，那么这台计算机就无法执行用这种语言编写的程序。形象的说，就是这台计算机也不懂这种语言。给计算机安装某一语言的编译器的过程，也就是让计算机学习这门语言的过程。当然了，你可以在一台计算机上安装多种语言编译器，这样计算机就具备了执行多种语言写出的程序的能力。当要运行某一语言写出的程序时，我们就用针对这种语言的编译器把程序翻译成机器码，然后再让计算机去执行。有的时候，我们用一种语言写好了程序，紧接着就用编译器把它编译成机器码，并把机器码保存称另一个文件，这样我们要执行这个程序的时候，就直接执行翻译成机器码的这个文件就可以了。在Windows操作系统中，这种保存机器码的可执行文件其扩展名用”.exe”表示。</p>
+</section>
+<section id="id4">
+<h2>程序运行期间与计算机的交流<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h2>
+<p>当计算机开始执行我们编写的程序的时候，作为程序的作者一定是很开心的。这就相当于一个人突然有了一个“私人助理”，可以通过程序让这个私人助理完成自己的想法或者一些机械重复的劳动。而我们自己则可以专注一些需要创造力的工作，这也是编程的一种乐趣。</p>
+<p>在不同的操作系统下，运行一个程序的方法可能是不同的。在windows操作系统下，可以通过单击或双击一个可执行程序的图标来运行这个程序，也可以通过在命令行终端输如一些命令来运行特定的程序。也就是说，运行程序的方式是依赖于操作系统的。</p>
+<p>当一个程序执行完成后，我们需要了解程序是否按照我们的意图正确地完成了工作。为此，我们需要程序在执行完毕时告诉我们执行的结果。初学计算机编程，我们经常让程序执行结果输出在一个命令行窗口里。这个时候，命令行窗口就充当了执行程序的人与计算机之间沟通的桥梁。我们也可以通过一些代码使得程序在执行的过程中输出一些中间结果，来让我们在程序运行期间得到反馈。有些时候，程序被设计成在执行过程中暂停下来，接受新的数据或信息以继续后续的执行过程。这个时候，键盘和鼠标是输入设备，也是初学编程者最常用的输入设备。</p>
+<p>下一节，将介绍全书将要使用的一门计算机语言，以及如何在你的计算机上安装这门语言的编译器，也就是让你的计算机能够理解并执行由这门语言写出来的程序。</p>
+<dl class="simple">
+<dt><a href="#id5"><span class="problematic" id="id6">``</span></a><a href="#id7"><span class="problematic" id="id8">`</span></a>python</dt><dd><p>print(“本节结束”)</p>
+</dd>
+</dl>
+<p><a href="#id9"><span class="problematic" id="id10">``</span></a><a href="#id11"><span class="problematic" id="id12">`</span></a></p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">目录</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">0.3 计算机程序如何执行</a><ul>
+<li><a class="reference internal" href="#id2">计算机只认识0和1</a></li>
+<li><a class="reference internal" href="#id3">计算机也需要学习计算机语言</a></li>
+<li><a class="reference internal" href="#id4">程序运行期间与计算机的交流</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>上一个主题</h4>
+  <p class="topless"><a href="p02_programming_language.html"
+                        title="上一章">0.2 计算机程序设计语言</a></p>
+  <h4>下一个主题</h4>
+  <p class="topless"><a href="p04_intro_python.html"
+                        title="下一章">0.4 使用Python语言编程</a></p>
+  <div role="note" aria-label="source link">
+    <h3>本页</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/c00/p03_execution_of_a_program.rst.txt"
+            rel="nofollow">显示源代码</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">快速搜索</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="转向" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>导航</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="总目录"
+             >索引</a></li>
+        <li class="right" >
+          <a href="p04_intro_python.html" title="0.4 使用Python语言编程"
+             >下一页</a> |</li>
+        <li class="right" >
+          <a href="p02_programming_language.html" title="0.2 计算机程序设计语言"
+             >上一页</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">初中数学编程实验 - 初中生学编程 0.1 文档</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../chapters/p00_intro_to_programming.html" >第0章：计算机编程简介</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">0.3 计算机程序如何执行</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; <a href="../copyright.html"> 版权所有</a> 2017, YQ.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.0.2.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+
+<html lang="zh_CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>1.1 正负数判断 &#8212; 初中数学编程实验 - 初中生学编程 0.1 文档</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/classic.css" />
+    
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/translations.js"></script>
+    
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
+    <link rel="copyright" title="版权所有" href="../copyright.html" />
+    <link rel="next" title="第2章：一元一次方程" href="../chapters/p02_yiyuanyicifangcheng.html" />
+    <link rel="prev" title="[问题模板]" href="p00_template.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>导航</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="总目录"
+             accesskey="I">索引</a></li>
+        <li class="right" >
+          <a href="../chapters/p02_yiyuanyicifangcheng.html" title="第2章：一元一次方程"
+             accesskey="N">下一页</a> |</li>
+        <li class="right" >
+          <a href="p00_template.html" title="[问题模板]"
+             accesskey="P">上一页</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">初中数学编程实验 - 初中生学编程 0.1 文档</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../chapters/p01_youlishu.html" accesskey="U">第1章：有理数</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">1.1 正负数判断</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="id1">
+<h1>1.1 正负数判断<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
+<section id="id2">
+<h2>问题<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>判断一个数是正数、负数还是0</p></li>
+</ul>
+</section>
+<section id="id3">
+<h2>编程要求<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p><strong>输入:</strong> 一个数。可以是整数，也可以是小数；可以是正数、负数或0;</p></li>
+<li><p><strong>输出:</strong> 一行文字，提示输入的数是正数、负数还是0。</p></li>
+</ul>
+</section>
+<section id="id4">
+<h2>数学知识<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>大于0的数是正数；小于0的数是负数；0既不是正数也不是负数</p></li>
+</ul>
+</section>
+<section id="id5">
+<h2>编程思路<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>计算机获取输入的数;</p></li>
+<li><p>将输入的数与0进行比较;</p></li>
+<li><p>根据比较结果显示相应的输出。</p></li>
+</ul>
+</section>
+<section id="id6">
+<h2>程序代码<a class="headerlink" href="#id6" title="永久链接至标题">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">zhengfushu</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;输入的数是正数&quot;</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">x</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;输入的数是负数&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;输入的数是0&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="id7">
+<h2>程序运行<a class="headerlink" href="#id7" title="永久链接至标题">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="go">&gt;&gt;&gt;zhengfushu(10.0)</span>
+<span class="go">输入的数是正数</span>
+<span class="go">&gt;&gt;&gt;zhengfushu(-4)</span>
+<span class="go">输入的数是负数</span>
+<span class="go">&gt;&gt;&gt;zhengfushu(0)</span>
+<span class="go">输入的数是0</span>
+</pre></div>
+</div>
+</section>
+<section id="id8">
+<h2>代码讲解<a class="headerlink" href="#id8" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">def</span></code> 是一个保留字，<code class="docutils literal notranslate"><span class="pre">zhengfushu</span></code> 是方法名，<code class="docutils literal notranslate"><span class="pre">x</span></code> 代表用户输入的数；</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">if</span></code>, <code class="docutils literal notranslate"><span class="pre">elif</span></code> 和 <code class="docutils literal notranslate"><span class="pre">else</span></code> 也都是保留字，用来控制程序的流程；</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">print</span></code> 是一个保留字，同时也是一个方法名，用来向屏幕输出特定的字符串。</p></li>
+</ul>
+</section>
+<section id="id9">
+<h2>轮到你了<a class="headerlink" href="#id9" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>给我们编写的方法换一个名称，使用这个新方法名来运行程序；</p></li>
+<li><p>给你的参数换一个名称，并适当修改你的程序代码使其完成相同的功能；</p></li>
+<li><p>编写一个新的方法，只判断一个数是负数还是非负数（正数或0）。你可以个性化设定该方法显示的输出内容。例如，当该方法接受 -3、-7、-100等负数作为输入参数时，你可以设定为输出“这是一个负数”之类的一句话；当方法接受2、5、100等正数或者0作为输入参数时，你可以设定为输出“它不是一个负数”之类的一句话。</p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">目录</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">1.1 正负数判断</a><ul>
+<li><a class="reference internal" href="#id2">问题</a></li>
+<li><a class="reference internal" href="#id3">编程要求</a></li>
+<li><a class="reference internal" href="#id4">数学知识</a></li>
+<li><a class="reference internal" href="#id5">编程思路</a></li>
+<li><a class="reference internal" href="#id6">程序代码</a></li>
+<li><a class="reference internal" href="#id7">程序运行</a></li>
+<li><a class="reference internal" href="#id8">代码讲解</a></li>
+<li><a class="reference internal" href="#id9">轮到你了</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>上一个主题</h4>
+  <p class="topless"><a href="p00_template.html"
+                        title="上一章">[问题模板]</a></p>
+  <h4>下一个主题</h4>
+  <p class="topless"><a href="../chapters/p02_yiyuanyicifangcheng.html"
+                        title="下一章">第2章：一元一次方程</a></p>
+  <div role="note" aria-label="source link">
+    <h3>本页</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/c01/p01_zhengfushu.rst.txt"
+            rel="nofollow">显示源代码</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">快速搜索</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="转向" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>导航</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="总目录"
+             >索引</a></li>
+        <li class="right" >
+          <a href="../chapters/p02_yiyuanyicifangcheng.html" title="第2章：一元一次方程"
+             >下一页</a> |</li>
+        <li class="right" >
+          <a href="p00_template.html" title="[问题模板]"
+             >上一页</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">初中数学编程实验 - 初中生学编程 0.1 文档</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../chapters/p01_youlishu.html" >第1章：有理数</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">1.1 正负数判断</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; <a href="../copyright.html"> 版权所有</a> 2017, YQ.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.0.2.
+    </div>
+  </body>
+</html>
