@@ -20,3 +20,11 @@ Roadmap
 ::
 
     |    根据实际教学经验，将结构大幅改版。争取每周更新一篇。
+
+
+ 2021/06/04:
+
+::
+
+    |    本书终止维护，请关注者留意新项目《初等数学与Python程序设计》
+    |    网址：https://gray-forest-07e916d00.azurestaticapps.net/index.html
